@@ -7,7 +7,7 @@ import { GlobalContextProvider } from './contexts/GlobalContextProvider';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/travel-journal-app">
             <GlobalContextProvider>
                 <App />
             </GlobalContextProvider>
